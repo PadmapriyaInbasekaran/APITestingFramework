@@ -1,0 +1,40 @@
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "xyz",
+    "job": "abc",
+    "id": 2
+}
+HTTP/1.1 200 OK
+Date: Thu, 11 May 2023 09:39:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"48-HITU1zH6u6w3BBASY06QO1l8bk8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TOkfDbB%2BcQRW32vUK%2BXIA5Nq9h%2B1iQbh1RURf6sR6y2facPCq1f7dWScqXSIVWE6zCWncrsDIgiD7ktI1iiRg4ID3tpTXdcgXGXghYnTxVOE7c5S4E%2BG3TDHpA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7c5973f44c9485b9-BOM
+Content-Encoding: gzip
+
+{
+    "name": "xyz",
+    "job": "abc",
+    "id": 2,
+    "updatedAt": "2023-05-11T09:39:07.863Z"
+}
